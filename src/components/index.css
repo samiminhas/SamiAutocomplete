@@ -1,0 +1,59 @@
+body {
+  background: #FFFFFF;
+}
+
+.search {
+  width: 30rem;
+  margin: 10rem auto 2rem auto;
+  text-align: right;
+  position: relative;
+}
+
+.search-box {
+  font-family:Verdana, Geneva, Tahoma, sans-serif;
+  border: 2px solid #CCCCCC;
+  font-size: 12pt;
+  width: 100%;
+  padding: 5px;
+  transition: width 0.3s;
+}
+
+ul.options {
+  border: 2px solid #CCCCCC;
+  display: block;
+  list-style: none;
+  width: 28rem;
+  transition: width 0.3s;
+  margin: auto;
+  margin-top: -32px;
+  position: relative;
+}
+
+ul.options li {
+  font-family:Verdana, Geneva, Tahoma, sans-serif;
+  display: block;
+  background: white;
+  margin: 10px auto;
+  font-size: 12pt;
+  width: 100%;
+  border-radius: 2px;
+}
+
+ul.options li:hover {
+  color: blue;
+  font-weight: bold;
+  cursor: pointer;
+  transition: 0.3s all;
+}
+
+ul.options li.option-active {
+  background: whitesmoke;
+  font-size: 14pt;
+  color: #AAAAAA;
+}
+
+.no-options {
+  font-family:Verdana, Geneva, Tahoma, sans-serif;
+  padding-left: 520px;
+  color: red;
+}
